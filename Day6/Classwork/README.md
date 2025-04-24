@@ -1,4 +1,4 @@
-#Day 6 - Classwork
+# Day 6 - Classwork
 
 - Classwork Output
 
