@@ -1,0 +1,24 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fdfdfd;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 20px auto;
+    max-width: 900px;
+}
+
+.info-box {
+    background-color: #fff8e1;
+    border-left: 6px solid #ffb300;
+    padding: 12px 18px;
+    margin: 10px 0;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #333;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
