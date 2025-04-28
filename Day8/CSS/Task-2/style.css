@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .task-heading {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Task 1: Profile Card */
+  .card {
+    display: flex;           
+    align-items: center;        
+    padding: 20px;               
+    border: 2px solid #ddd;       
+    border-radius: 10px;         
+    background-color: lightgreen;
+    border: 3px dashed darkgreen;
+    width: 300px;                 
+    margin: 20px auto;            
+  }
+  
+  .image img {
+    width: 100px;                
+    height: 100px;             
+    border-radius: 50%;          
+    margin-right: 20px;           
+  }
+  
+  .info {
+    flex-grow: 1;             
+  }
+  
+  .info h2 {
+    margin: 0;                   
+    font-size: 22px;             
+  }
+  
+  .info p {
+    font-size: 14px;            
+    color: #555;                 
+  }
+  
+  /* Task 2: Navigation Bar */
+  .navbar {
+    background-color: #333;
+    padding: 10px 0;
+  }
+  
+  .navbar ul {
+    display: flex;                    
+    justify-content: center;     
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+  }
+  
+  .navbar li {
+    margin: 0 20px;                  
+  }
+  
+  .navbar a {
+    text-decoration: none;            
+    color: white;                     
+    font-weight: bold;                
+    font-size: 16px;
+    padding: 5px 10px;
+    display: block;
+    text-align: center;              
+  }
+  
+  /* Hover Effect */
+  .navbar a:hover {
+    background-color: #555;
+    border-radius: 5px;
+  }
+  
+
+   /* Task 3: Three column layout */
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.sidebar {
+    width: 200px;                
+    padding: 20px;                 
+    background-color: lightgray;  
+    box-sizing: border-box;
+}
+
+.main-content {
+    flex-grow: 1;                 
+    padding: 20px;                 
+    background-color: lightblue;   
+    box-sizing: border-box;
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;   
+    }
+
+    .sidebar {
+        width: 100%;              
+        margin-bottom: 10px;      
+    }
+
+    .main-content {
+        width: 100%;            
+    }
+}
