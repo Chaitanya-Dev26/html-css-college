@@ -5,15 +5,166 @@ body {
     align-items: center;
     margin-top: 50px;
     font-family: Arial, sans-serif;
-  }
-  .practice {
-    background-color: #fff;
+}
+
+.Tasks {
+    background-color: lightgreen;
+    border: 3px dashed darkgreen;
     padding: 20px;
     margin: 20px;
     width: 80%;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  }
-  h1 {
+    text-align: center;
+}
+
+h1 {
     margin-bottom: 20px;
-  }
+}
+
+.basic-box {
+    background-color: lightblue;
+    padding: 15px;
+    border: 3px solid black;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.task2-box {
+    background-color: lightblue;
+    padding: 10px 20px 30px 40px; 
+    border: 3px solid black;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.task3-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 20px;
+}
+
+.task3-padding-box, .task3-margin-box {
+    background-color: #add8e6; 
+    border: 2px solid #000;
+    font-size: 18px;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.task3-padding-box {
+    padding: 30px;
+}
+
+.task3-margin-box {
+    margin: 30px;
+}
+
+.task4-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px;
+}
+
+.task4-box {
+    background-color: #ffd700; 
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.task5-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px; 
+    background-color: #e0ffff;
+    margin: 20px;
+    border: 2px solid #000;
+    border-radius: 8px;
+}
+
+.task5-box {
+    background-color: #ff7f50; 
+    padding: 30px;
+    border: 2px solid black;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.task6-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; 
+    background-color: #f0f8ff; 
+    padding: 20px;
+    border: 2px solid #000;
+    border-radius: 8px;
+    margin: 20px;
+}
+
+.task6-box {
+    background-color: #ff6347; 
+    padding: 20px;
+    border: 2px solid black;
+    font-weight: bold;
+    font-size: 18px;
+    width: 200px; 
+    text-align: center;
+}
+
+.task7-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; 
+    background-color: #f8f8ff; 
+    padding: 20px;
+    border: 2px solid #000;
+    border-radius: 8px;
+    margin: 20px;
+}
+
+.task7-box {
+    background-color: #ff4500; 
+    padding: 20px;
+    border: 2px solid black;
+    font-weight: bold;
+    font-size: 18px;
+    width: 200px;
+    text-align: center;
+}
+
+.task8-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    gap: 20px;
+    background-color: #f5fffa;
+    padding: 20px;
+    border: 2px solid #000;
+    border-radius: 8px;
+    margin: 20px;
+}
+
+.task8-box {
+    background-color: #32cd32;
+    padding: 20px;
+    border: 2px solid black;
+    font-weight: bold;
+    font-size: 18px;
+    width: 200px;
+    text-align: center;
+}
