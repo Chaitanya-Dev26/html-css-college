@@ -13,6 +13,7 @@ body {
     margin:20px;
     margin-top: 20px;
     height: 100%;
+    overflow: hidden;
 }
 
 /*Task - 1*/
@@ -75,6 +76,7 @@ body {
         padding: 2rem;
         max-width: 1000px;
         margin: 0 auto;
+        margin-bottom: 25px;
         background-color: #fff;
         border-radius: 10px;
         box-shadow: 0 0 20px rgba(0,0,0,0.1);
@@ -113,6 +115,7 @@ body {
         padding: 2rem;
         max-width: 1000px;
         margin: 0 auto;
+        margin-bottom: 25px;
         background-color: #fff;
         border-radius: 10px;
         box-shadow: 0 0 20px rgba(0,0,0,0.1);
@@ -209,26 +212,55 @@ body {
         overflow: hidden;
       }
       
+
       .circle {
         float: left;
-        width: 250px;
-        height: 250px;
+        width: 200px;
+        height: 200px;
         background-color: crimson;
         shape-outside: circle();
-        clip-path: circle();
-        margin: 20px 20px 20px 0;
+        clip-path: circle(); 
+        border-radius: 50%;
+        margin-right: 20px;
       }
       
-      .text h2 {
+      .container h2 {
         font-size: 1.8rem;
         margin-bottom: 10px;
       }
       
-      .text p {
+      .container p {
         font-size: 1.1rem;
         line-height: 1.6;
       }
 
-
-      
+      .shape-container {
+        background-color: lightblue;
+        padding: 20px;
+        border: 2px solid black;
+        max-width: 900px;
+        margin: 0 auto;
+        overflow: hidden; 
+      }
+  
+      .circle-shape {
+        float: left;
+        width: 200px;
+        height: 200px;
+        background-color: crimson;
+        shape-outside: circle();
+        border-radius: 50%;
+        margin-right: 20px;
+      }
+  
+      .circle-shape::before {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 100%;
+      }
+  
+      .text-content h2 {
+        margin-top: 0;
+      }
       
