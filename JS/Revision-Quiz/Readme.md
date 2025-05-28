@@ -10,6 +10,8 @@
 
 1. **What does DOM stand for in JavaScript?**  
    ✅ a) **Document Object Model**
+**Reference: https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model**
+
 
 2. **Which method is used to select an element by its ID?**  
    ✅ c) **getElementById()**
